@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css" />  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/Portfolio.css" />
+     
+</head>
+<body class="backimage" id="media screen">
+<div class="header" >
+    <header>
+        <div >
+            <nav>
+                    <div class="logo">
+                         <img src="./assets/images/Logo.png">
+                    </div>
+                    <div class="ad">
+                         <ul >    
+                            <li><a class="active" href="./Index.html">About </a></li>
+                            <li><a class="active" href="./Portfolio.html">Portfolio</a></li>
+                            <li><a class="active" href="./Contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+    </header>
+</div>
+<div>
+    <div class="content section">
+        <img class="mySlides img" src="./assets/images/Farewell Party.png" />
+        <img class="mySlides img" src="./assets/images/5.png" /> 
+        <img class="mySlides img" src="./assets/images/Gunj Cirtificates.png"  />  
+    <div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <div class="detail">
+        <h1>Portfolio Images</h1>
+    </div>
+<!-- Photo Grid -->
+    <div class="row"> 
+        <div class="column">
+            <img src="./assets/images/Farewell party.png" style="width: 100%">
+            <img src="./assets/images/Banner-Sports.png" style="width: 100%">
+            <img src="./assets/images/2.jpg" style="width: 100%">
+        </div>
+        <div class="column">
+            <img src="./assets/images/Gunj Cirtificates.png" style="width: 100%">
+            <img src="./assets/images/3.jpg" style="width: 100%">
+            <img src="./assets/images/new turn.jpg" style="width: 100%">
+        </div>
+        <div class="column">
+            <img src="./assets/images/5.png" style="width: 100%">
+            <img src="./assets/images/Canvas 04 Product_design 5.2-1.png" style="width: 100%">
+            <img src="./assets/images/4.jpg" style="width: 100%">
+        
+        </div>
+    </div>
+</div>
+    <footer>
+        <a>Develop&Design by:Kevin Mehta</a>
+    </footer>
+</body>
+</html> 

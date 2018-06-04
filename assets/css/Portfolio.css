@@ -1,0 +1,180 @@
+.mySlides 
+{
+    display:none;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.content
+{
+    max-width:1272px;
+    margin:auto;
+}
+.section,.code
+{
+    margin-top:16px!important;
+    margin-bottom:16px!important;
+}
+.img{
+    width: 72rem;
+    height: 509px;
+}
+h1
+{
+    text-align: center;
+
+}
+.detail
+{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: chartreuse;
+}
+.backimage
+{
+     /* Set rules to fill background */
+    background-image: url('../images/Artoard 1.png');
+      /* Full height */
+      height: 100%; 
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.row { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+@media screen and
+(max-width: 980px)
+{
+    .detail
+    {
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    .img{
+        width: 864px;
+        height: 509px;
+    }
+    .content
+    {
+        max-width:1272px;
+        margin:auto;
+    }
+    .row { 
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-right: -139px;
+        padding: 0 4px;
+    }
+    .mySlides 
+    {
+        display:none;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .content
+    {
+        max-width:1272px;
+        margin:auto;
+    }
+    .section,.code
+    {
+        margin-top:16px!important;
+    
+    }
+}
+@media screen and
+(max-width: 768px)
+{
+    .detail
+    {
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    .img{
+        width: 643px;
+        height: 509px;
+    }
+    .content
+    {
+        max-width:1272px;
+        margin:auto;
+    }
+    .row { 
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-right: -139px;
+        padding: 0 4px;
+    }
+    .mySlides 
+    {
+        display:none;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .content
+    {
+        max-width:1272px;
+        margin:auto;
+    }
+    .section,.code
+    {
+        margin-top:16px!important;
+    
+    }
+}
+@media screen and
+(max-width: 640px)
+{
+    .detail
+    {
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    .img{
+        width: 514px;
+        height: 509px;
+    }
+    .content
+    {
+        max-width:1272px;
+        margin:auto;
+    }
+    .row { 
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-right: -97px;
+        padding: 0 4px;
+    }
+    .mySlides 
+    {
+        display:none;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .content
+    {
+        max-width:1272px;
+        margin:auto;
+    }
+    .section,.code
+    {
+        margin-top:16px!important;
+    
+    }
+}

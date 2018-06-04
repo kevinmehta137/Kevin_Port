@@ -1,0 +1,221 @@
+
+
+li {
+    float: right;
+    margin-top: 20px;
+  }
+/*.lw
+{
+ float: left;
+ color: aliceblue;
+ font-style: Bold;
+ margin-top: 5px;
+ font-size: 30px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}*/
+
+li:last-child {
+    border-right: none;
+    list-style-type: none;
+}
+li a {
+    display: block;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.profile
+{
+    width: 10rem;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.container {
+    background-image: url("../images/Artboard 1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    width: auto;
+    height: 505px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.centered {
+    margin-top: -177px;
+    position: relative;
+    margin-left: 667px;
+    margin-right: 100px;
+}
+
+.logo
+{
+    float: left;
+    margin-top: 0px;
+    margin-left: 60px;
+    font-size: 40px;
+    color: rgb(12, 202, 12);
+}
+.header{
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+footer
+{
+    margin-top: 3px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: right;
+    background-color: rgb(12, 202, 12);
+}
+.ad
+{
+    margin-right: 71px;
+}
+@media screen and (max-width: 980px){
+    .ad
+    {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .container{
+        position: relative;
+        width: 854px;
+        height: 505px;
+        margin-left: 60px;
+        margin-right: 506px;
+    }
+    .profile
+    {
+        width: 150px;
+        height: 150px;
+        margin-top: 32px;
+        text-align: right;
+        margin-left: 504px;
+    }
+    .centered {
+        margin-top: -15px;
+        text-align: center;
+        position: relative;
+        margin-left: 319px;
+        margin-right: 10px;
+    }   
+    footer
+    {
+        margin-top: 3px;
+        margin-left: 60px;
+        margin-right: 50px;
+        text-align: right;
+        background-color: rgb(12, 202, 12);
+
+    }
+
+}
+@media screen and (max-width: 768px){
+    .ad
+    {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .container{
+        position: relative;
+        width: auto;
+        height: 505px;
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    .profile
+    {
+        width: 150px;
+        height: 150px;
+        margin-top: 32px;
+        text-align: right;
+        margin-left: 404px;
+    }
+    .centered {
+        margin-top: -15px;
+        text-align: center;
+        position: relative;
+        margin-left: 319px;
+        margin-right: 10px;
+    }   
+    footer
+    {
+        margin-top: 3px;
+        margin-left: 60px;
+        margin-right: 50px;
+        text-align: right;
+        background-color: rgb(12, 202, 12);
+
+    }
+
+}
+@media screen and (max-width: 640px){
+    .ad
+    {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .container{
+        position: relative;
+        width: auto;
+        height: 505px;
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    .profile
+    {
+        width: 150px;
+        height: 150px;
+        margin-top: 32px;
+        text-align: right;
+        margin-left: 333px;
+    }
+    .centered {
+        margin-top: -15px;
+        text-align: center;
+        position: relative;
+        margin-left: 319px;
+        margin-right: 10px;
+    }   
+    footer
+    {
+        margin-top: 3px;
+        margin-left: 60px;
+        margin-right: 50px;
+        text-align: right;
+        background-color: rgb(12, 202, 12);
+
+    }
+
+}
